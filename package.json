@@ -1,0 +1,56 @@
+{
+  "name": "cruz-arquitectura",
+  "version": "0.0.1",
+  "private": true,
+  "devDependencies": {
+    "@types/node": "^14.0.26",
+    "@types/react": "^16.9.46",
+    "@types/react-dom": "^16.9.8",
+    "husky": "4.2.5",
+    "lint-staged": "10.4.0",
+    "prettier": "2.1.0",
+    "typescript": "^3.9.7"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,json,css,md}": [
+      "prettier --write"
+    ]
+  },
+  "dependencies": {
+    "dist-exiftool": "10.53.0",
+    "isomorphic-unfetch": "^3.0.0",
+    "next": "^10.0.1",
+    "node-exiftool": "2.3.0",
+    "node-vibrant": "^3.2.1-alpha.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "swr": "^0.3.6"
+  },
+  "scripts": {
+    "prestart": "node ./scripts/exif.js",
+    "prebuild": "node ./scripts/exif.js",
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "eslintConfig": {
+    "extends": "./node_modules/react-scripts/config/eslint.js"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

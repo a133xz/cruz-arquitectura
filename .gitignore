@@ -1,0 +1,20 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# dependencies
+node_modules
+npm-shrinkwrap.json
+package-lock.json
+
+# production
+build
+.next
+
+# misc
+.DS_Store
+npm-debug.log
+yarn-error.log
+
+# ignore generated data
+package-lock.json
+data/manifest.ts
+.now
