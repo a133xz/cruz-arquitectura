@@ -8,6 +8,7 @@ export type ImageData = {
   fileName: string
   aspectRatio: number
   description: string
+  title: string
   colors: {
     vibrant: string
     darkVibrant: string
