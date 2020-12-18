@@ -17,6 +17,11 @@ function HomePage() {
       } else {
         content.scrollLeft += e.deltaY
         content.setAttribute("style", `--scroll-delta: ${content.scrollLeft}`)
+        if (content.scrollLeft > 0) {
+          content.getElementsByClassName("site-header")[0].setAttribute("style", `white-space: nowrap`)
+        } else {
+          content.getElementsByClassName("site-header")[0].setAttribute("style", `white-space: unset`)
+        }
       }
     }
 

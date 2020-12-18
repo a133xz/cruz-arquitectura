@@ -7,10 +7,10 @@ export default function GlobalStyles() {
         :root {
           --imgSize: 85vh;
           --baseline: 1.5rem;
-          --darkGray: #222;
-          --lightGray: #aaa;
-          --foreground: var(--darkGray);
-          --background: var(--lightGray);
+          --dark: #202124;
+          --light: #fefeff;
+          --foreground: var(--dark);
+          --background: var(--light);
         }
 
         * {
@@ -25,7 +25,7 @@ export default function GlobalStyles() {
           background-color: var(--background);
           color: var(--foreground);
           font: 90%/1.5 'Krona One', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
-          font-weight: 500;
+          -webkit-font-smoothing: antialiased;
           height: 100%;
           overflow: hidden;
           transition: 0.3s ease;
@@ -79,8 +79,8 @@ export default function GlobalStyles() {
         }
 
         .site-title {
-          font-weight: 600;
-          font-size: 1rem;
+          font-weight: normal;
+          font-size: 1.2rem;
           margin-bottom: 2em;
         }
 

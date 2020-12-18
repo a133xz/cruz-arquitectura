@@ -40,7 +40,7 @@ function Preface({ children }: { children: ReactNode }): ReactElement {
             transform: translateY(
               calc(
                 max(
-                  min(var(--scroll-delta), 300) / 300 * var(--baseline) * -2,
+                  min(var(--scroll-delta), 80) / 80 * var(--baseline) * -2,
                   -2rem
                 )
               )

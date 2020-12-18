@@ -46,11 +46,11 @@ function Image(props: Props) {
     if (entry?.intersectionRatio >= 0.9 && onScreen) {
       document.documentElement.style.setProperty(
         "--foreground",
-        colors.darkVibrant ?? "var(--darkGray)"
+        colors.darkVibrant ?? "var(--dark)"
       )
       document.documentElement.style.setProperty(
         "--background",
-        colors.lightVibrant ?? "var(--lightGray)"
+        colors.lightVibrant ?? "var(--light)"
       )
     }
   }, [entry, onScreen])
