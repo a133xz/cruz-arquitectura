@@ -24,7 +24,7 @@ export default function GlobalStyles() {
           -webkit-text-size-adjust: none;
           background-color: var(--background);
           color: var(--foreground);
-          font: 90%/1.5 'Krona One', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+          font: 110%/1.5 'Montserrat', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
           -webkit-font-smoothing: antialiased;
           height: 100%;
           overflow: hidden;
@@ -79,7 +79,6 @@ export default function GlobalStyles() {
         }
 
         .site-title {
-          font-weight: normal;
           font-size: 1.2rem;
           margin-bottom: 2em;
         }
