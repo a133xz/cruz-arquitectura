@@ -65,8 +65,8 @@ async function createManifestFromExifData(exifData) {
   fileInfo.sort((a, b) => {
     let keyA = parseInt(a.fileName.split(".")[0]),
       keyB = parseInt(b.fileName.split(".")[0])
-    if (keyA < keyB) return -1
-    if (keyA > keyB) return 1
+    if (keyA > keyB) return -1
+    if (keyA < keyB) return 1
     return 0
   })
 
