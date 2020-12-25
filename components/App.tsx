@@ -35,7 +35,7 @@ function Preface({ children }: { children: ReactNode }): ReactElement {
         @media (orientation: landscape) {
           .pane {
             position: sticky;
-            left: 0;
+            left: 20px;
             top: 0;
             transform: translateY(
               calc(

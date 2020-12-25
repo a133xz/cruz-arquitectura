@@ -24,7 +24,7 @@ export default function GlobalStyles() {
           -webkit-text-size-adjust: none;
           background-color: var(--background);
           color: var(--foreground);
-          font: 110%/1.5 'Montserrat', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+          font: 120%/1.5 'Jura', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
           -webkit-font-smoothing: antialiased;
           height: 100%;
           overflow: hidden;
@@ -59,7 +59,7 @@ export default function GlobalStyles() {
 
         a {
           color: inherit;
-          text-decoration-color: rgba(255, 255, 255, 0.5);
+          text-decoration-color: black;
           text-decoration-skip-ink: auto;
           transition: 0.2s ease;
           transition-property: color, text-decoration-color;
@@ -127,7 +127,7 @@ export default function GlobalStyles() {
 
         .pane--text {
           align-self: flex-start;
-          width: 35rem;
+          width: 32rem;
           max-width: 100%;
         }
 

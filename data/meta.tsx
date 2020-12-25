@@ -12,14 +12,13 @@ const siteInfo = {
       <p>
       Desarrollo proyectual, planimétrico y administrativo así como dirección técnica de proyectos arquitectónicos.
       </p>
-      <br />
       <p>
         Puedes seguirme en <a href="https://instagram.com/cruz.arquitectura">Instagram</a> and{" "}
         <a href="https://www.linkedin.com/in/juanfranciscocruzs%C3%A1nchez/">LinkedIn</a>.
-      </p>
-      <p>
+        <br/>
         #LuxuryIsAStateOfMind
       </p>
+      
     </React.Fragment>
   ),
   image: "",
