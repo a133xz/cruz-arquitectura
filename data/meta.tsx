@@ -21,7 +21,7 @@ const siteInfo = {
       
     </React.Fragment>
   ),
-  image: "",
+  image: "https://cruz-arquitectura.es/_next/image?url=%2Fimages%2F010.jpg&w=2048&q=75",
 }
 
 export default siteInfo
