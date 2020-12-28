@@ -60,6 +60,12 @@ async function createManifestFromExifData(exifData) {
       height,
     }
 
+    // Hack
+    let hackColor = "#bcf583";
+    if (info.colors.lightVibrant === hackColor) {
+      info.colors.lightVibrant = "#ececec";
+    }
+
     fileInfo.push(info)
   })
 
