@@ -42,8 +42,6 @@ async function createManifestFromExifData(exifData) {
     const [width, height] = datum.ImageSize.split("x").map((n) => parseInt(n))
     const aspectRatio = [width, height].reduce((w, h) => w / h)
 
-    console.log(datum.FileName)
-
     const colorPalette = colors.find((entry) => {
       return entry.name === datum.FileName
     })
