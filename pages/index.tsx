@@ -1,10 +1,12 @@
-import Head from "next/head"
 import React, { useEffect } from "react"
 import App from "../components/App"
 import imageData from "../data/manifest"
 import siteInfo from "../data/meta"
+import HeadMeta from "../components/HeadMeta"
 
-const images = imageData.slice().reverse()
+const images = imageData.slice()
+images.pop()
+images.reverse()
 
 function HomePage() {
   useEffect(() => {
@@ -32,24 +34,7 @@ function HomePage() {
 
   return (
     <>
-      <Head>
-        <title>{siteInfo.title}</title>
-        <meta name="description" content={siteInfo.description} />
-
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta property="og:title" content={siteInfo.title} />
-        <meta property="og:type" content="website" />
-        <meta
-          property="og:image"
-          content={siteInfo.image}
-        />
-        <meta property="og:description" content={siteInfo.description} />
-        <link rel="preconnect" href="https://fonts.gstatic.com"></link>
-        <link href="https://fonts.googleapis.com/css2?family=Jura:wght@400;600&display=swap" rel="stylesheet" />
-      </Head>
-
+     <HeadMeta/>
       <App preface={siteInfo.fullDescription} images={images} />
     </>
   )

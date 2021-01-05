@@ -6,7 +6,7 @@ const Header = (): ReactElement => {
   return (
     <header className="site-header">
       <h1 className="site-title">
-        <a href={siteInfo.headerLink}>CRUZ Arquitectura</a> - {siteInfo.description}
+        CRUZ Arquitectura - {siteInfo.description}
       </h1>
     </header>
   )
