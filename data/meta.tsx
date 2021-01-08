@@ -1,61 +1,52 @@
 import React from "react"
 
 const siteInfo = {
-  title: "CRUZ Arquitectura \u2020",
+  metaTitle: "CRUZ Arquitectura \u2020",
+  title: "CRUZ Arquitectura",
   description: "Estudio de Arquitectura BIM",
   fullDescription: (
     <React.Fragment>
+      <p>Especializado en BIM y Visualización Arquitectónica.</p>
       <p>
-      Especializado en BIM y Visualización Arquitectónica.
+        Desarrollo proyectual, planimétrico y administrativo así como dirección
+        técnica de proyectos arquitectónicos.
       </p>
       <p>
-      Desarrollo proyectual, planimétrico y administrativo así como dirección técnica de proyectos arquitectónicos.
+        <a href="/about">Descubre más sobre mi</a>
       </p>
-      <p>
-      <a href="/about">Descubre más sobre mi.</a> 
-      </p>
-      <p>
-      Sígueme en <a href="https://instagram.com/cruz.arquitectura">Instagram</a> +{" "}
-        <a href="https://www.linkedin.com/in/juanfranciscocruzs%C3%A1nchez/">LinkedIn</a>.
-      </p>
-      #LuxuryIsAStateOfMind
     </React.Fragment>
   ),
   about: (
     <React.Fragment>
-         <p>
-      Juan Francisco Cruz, graduado en Arquitectura y con un master en BIM Manager.</p>
       <p>
-      Embarcado en la bonita aventura de crear un estudio de arquitectura, especializado en metodología BIM, visualización arquitectónica y desarrollo integral de proyectos.
+        Juan Francisco Cruz, graduado en Arquitectura y con un master en BIM
+        Manager.
       </p>
       <p>
-      <a href="/">Vuelve a la página principal.</a> 
+        Embarcado en la bonita aventura de crear un estudio de arquitectura,
+        especializado en metodología BIM, visualización arquitectónica y
+        desarrollo integral de proyectos.
       </p>
       <p>
-      Sígueme en <a href="https://instagram.com/cruz.arquitectura">Instagram</a> +{" "}
-        <a href="https://www.linkedin.com/in/juanfranciscocruzs%C3%A1nchez/">LinkedIn</a>.
+        <a href="/">Vuelve a la página principal.</a>
       </p>
-      #LuxuryIsAStateOfMind
     </React.Fragment>
   ),
   footer: (
     <React.Fragment>
       <p>
-      Juan Francisco Cruz, graduado en Arquitectura y con un master en BIM Manager.</p>
-      <p>
-      Embarcado en la bonita aventura de crear un estudio de arquitectura, especializado en metodología BIM, visualización arquitectónica y desarrollo integral de proyectos.
-      </p>
-      <p>
-      <a href="/">Vuelve a la página principal.</a> 
-      </p>
-      <p>
-      Sígueme en <a href="https://instagram.com/cruz.arquitectura">Instagram</a> +{" "}
-        <a href="https://www.linkedin.com/in/juanfranciscocruzs%C3%A1nchez/">LinkedIn</a>.
+        Sígueme en{" "}
+        <a href="https://instagram.com/cruz.arquitectura">Instagram</a> +{" "}
+        <a href="https://www.linkedin.com/in/juanfranciscocruzs%C3%A1nchez/">
+          LinkedIn
+        </a>
+        .
       </p>
       #LuxuryIsAStateOfMind
     </React.Fragment>
   ),
-  image: "https://cruz-arquitectura.es/_next/image?url=%2Fimages%2F010.jpg&w=2048&q=75",
+  image:
+    "https://cruz-arquitectura.es/_next/image?url=%2Fimages%2F010.jpg&w=2048&q=75",
 }
 
 export default siteInfo
