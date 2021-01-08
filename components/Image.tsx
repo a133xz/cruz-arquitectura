@@ -53,6 +53,14 @@ function Image(props: Props) {
         colors.lightVibrant ?? "var(--light)"
       )
     }
+
+  if (document.body.getBoundingClientRect().top === 0) {
+    document.documentElement.style.setProperty(
+      "--background",
+      "white"
+    )
+  }
+    
   }, [entry, onScreen])
 
   const url = `/images/${fileName}`

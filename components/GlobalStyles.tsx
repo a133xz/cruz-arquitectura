@@ -97,6 +97,12 @@ export default function GlobalStyles() {
           margin-bottom: 35px;
         }
 
+        @media screen and (max-width: 450px) {
+          .logo-wrapper {
+            text-align: center;
+          }
+        }
+
         #__next {
           display: flex;
           flex-flow: column nowrap;
