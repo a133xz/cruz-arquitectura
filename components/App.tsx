@@ -21,6 +21,7 @@ export type ImageData = {
 type Props = {
   preface?: ReactElement
   images: Array<ImageData>
+  footer?: ReactElement
 }
 
 function Preface({ children }: { children: ReactNode }): ReactElement {
@@ -58,6 +59,7 @@ function App(props: Props): ReactElement {
       <main className="site-content">
         <Preface>
           <div className="content">{props.preface}</div>
+          {props.footer}
         </Preface>
         {props.images.map((img, i) => (
           <Image

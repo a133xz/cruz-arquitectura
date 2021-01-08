@@ -39,7 +39,7 @@ function HomePage() {
   return (
     <>
      <HeadMeta/>
-      <App preface={siteInfo.fullDescription} images={images} />
+      <App preface={siteInfo.fullDescription} images={images} footer={siteInfo.footer} />
     </>
   )
 }

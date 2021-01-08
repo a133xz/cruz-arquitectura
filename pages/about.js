@@ -9,7 +9,7 @@ function AboutPage() {
   return (
     <>
       <HeadMeta/>
-      <App preface={siteInfo.about} images={images} />
+      <App preface={siteInfo.about} images={images} footer={siteInfo.footer}/>
     </>
   )
 }
