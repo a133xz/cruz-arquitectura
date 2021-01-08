@@ -6,7 +6,7 @@ const Header = (): ReactElement => {
   return (
     <header className="site-header"> 
       <div className="logo-wrapper">
-      <img alt="logo Cruz Arquitectura" src="/logo.png" width="320"></img>
+      <img alt="logo Cruz Arquitectura" src="/logo.png" width="310"></img>
       </div>
       <h1 className="site-title">
        <div>

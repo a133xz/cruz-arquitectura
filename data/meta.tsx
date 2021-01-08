@@ -12,7 +12,10 @@ const siteInfo = {
       Desarrollo proyectual, planimétrico y administrativo así como dirección técnica de proyectos arquitectónicos.
       </p>
       <p>
-      <a href="/about">Descubre más sobre mi</a> y sígueme en <a href="https://instagram.com/cruz.arquitectura">Instagram</a> +{" "}
+      <a href="/about">Descubre más sobre mi.</a> 
+      </p>
+      <p>
+      Sígueme en <a href="https://instagram.com/cruz.arquitectura">Instagram</a> +{" "}
         <a href="https://www.linkedin.com/in/juanfranciscocruzs%C3%A1nchez/">LinkedIn</a>.
       </p>
       #LuxuryIsAStateOfMind
@@ -20,8 +23,13 @@ const siteInfo = {
   ),
   about: (
     <React.Fragment>
+         <p>
+      Juan Francisco Cruz, graduado en Arquitectura y con un master en BIM Manager.</p>
       <p>
-      Mi carrera empieza blabla. <a href="/">Vuelve a la página principal.</a>
+      Embarcado en la bonita aventura de crear un estudio de arquitectura, especializado en metodología BIM, visualización arquitectónica y desarrollo integral de proyectos.
+      </p>
+      <p>
+      <a href="/">Vuelve a la página principal.</a> 
       </p>
       <p>
       Sígueme en <a href="https://instagram.com/cruz.arquitectura">Instagram</a> +{" "}
@@ -33,7 +41,12 @@ const siteInfo = {
   footer: (
     <React.Fragment>
       <p>
-      Mi carrera empieza blabla. <a href="/">Vuelve a la página principal.</a>
+      Juan Francisco Cruz, graduado en Arquitectura y con un master en BIM Manager.</p>
+      <p>
+      Embarcado en la bonita aventura de crear un estudio de arquitectura, especializado en metodología BIM, visualización arquitectónica y desarrollo integral de proyectos.
+      </p>
+      <p>
+      <a href="/">Vuelve a la página principal.</a> 
       </p>
       <p>
       Sígueme en <a href="https://instagram.com/cruz.arquitectura">Instagram</a> +{" "}
