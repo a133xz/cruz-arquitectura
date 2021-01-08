@@ -103,6 +103,14 @@ export default function GlobalStyles() {
           }
         }
 
+        @media screen and (min-width: 650px) {
+          .about {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          }
+        }
+
         #__next {
           display: flex;
           flex-flow: column nowrap;

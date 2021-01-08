@@ -58,8 +58,11 @@ function App(props: Props): ReactElement {
     <>
       <main className="site-content">
         <Preface>
-          <div className="content">{props.preface}</div>
+          <div className="content">
+            {props.preface}
           {props.footer}
+          </div>
+         
         </Preface>
         {props.images.map((img, i) => (
           <Image
