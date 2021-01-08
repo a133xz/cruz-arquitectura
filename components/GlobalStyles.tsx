@@ -24,7 +24,7 @@ export default function GlobalStyles() {
           -webkit-text-size-adjust: none;
           background-color: var(--background);
           color: var(--foreground);
-          font: 120%/1.5 'Jura', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+          font: 120%/1.5 'Questrial', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
           -webkit-font-smoothing: antialiased;
           height: 100%;
           overflow: hidden;
@@ -81,6 +81,20 @@ export default function GlobalStyles() {
         .site-title {
           font-size: 1.2rem;
           margin-bottom: 2em;
+          display: none;
+        }
+
+        .site-title__social {
+          display: flex;
+          justify-content: space-around
+        }
+
+        .site-title__social span {
+          margin 0 15px;
+        }
+
+        .logo-wrapper {
+          margin-bottom: 35px;
         }
 
         #__next {

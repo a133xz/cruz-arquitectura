@@ -4,9 +4,22 @@ import siteInfo from "../data/meta"
 
 const Header = (): ReactElement => {
   return (
-    <header className="site-header">
+    <header className="site-header"> 
+      <div className="logo-wrapper">
+      <img alt="logo Cruz Arquitectura" src="/logo.png" width="320"></img>
+      </div>
       <h1 className="site-title">
-        CRUZ Arquitectura - {siteInfo.description}
+       <div>
+        CRUZ Arquitectura - {siteInfo.description} 
+       </div>
+       {/* <div className="site-title__social">
+         <span>
+          Sobre mi
+         </span>
+         <span>
+          Instagram
+         </span>
+       </div> */}
       </h1>
     </header>
   )

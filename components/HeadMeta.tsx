@@ -20,7 +20,7 @@ const HeadMeta = (): ReactElement => {
         />
         <meta property="og:description" content={siteInfo.description} />
         <link rel="preconnect" href="https://fonts.gstatic.com"></link>
-        <link href="https://fonts.googleapis.com/css2?family=Jura:wght@400;600&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Questrial:wght@400;600&display=swap" rel="stylesheet" />
     </Head>
   )
 }
