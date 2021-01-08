@@ -6,11 +6,9 @@ import siteInfo from "../data/meta"
 const HeadMeta = (): ReactElement => {
   return (
     <Head>
-        <title>{siteInfo.title}</title>
+        <title>{siteInfo.metaTitle}</title>
         <meta name="description" content={siteInfo.description} />
-        
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        
         <meta name="twitter:card" content="summary_large_image" />
         <meta property="og:title" content={siteInfo.title} />
         <meta property="og:type" content="website" />
