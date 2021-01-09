@@ -60,6 +60,14 @@ function Image(props: Props) {
       "white"
     )
   }
+
+   // dark mode
+  if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+    document.documentElement.style.setProperty(
+      "--background",
+      "white"
+    )
+}
     
   }, [entry, onScreen])
 
