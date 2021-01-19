@@ -79,26 +79,35 @@ export default function GlobalStyles() {
         }
 
         .site-title {
-          font-size: 1.2rem;
-          margin-bottom: 2em;
           display: none;
         }
 
-        .site-title__social {
+        .site-title h1 {
+          font-size: 1.2rem;
+          margin-bottom: 0;
+        }
+
+        .site-social {
           display: flex;
           justify-content: space-around
         }
 
-        .site-title__social span {
+        .site-social span {
           margin 0 15px;
         }
 
-        .logo-wrapper {
+        @media screen and (max-width: 992px) {
+          .site-title {
+            display: none !important;
+          }
+        }
+
+        .site-logo {
           margin-bottom: 35px;
         }
 
         @media screen and (max-width: 450px) {
-          .logo-wrapper {
+          .site-logo {
             text-align: center;
           }
         }
@@ -183,6 +192,20 @@ export default function GlobalStyles() {
             height: calc(var(--width) / var(--aspect-ratio));
           }
         }
+
+        @media (orientation: portrait) {
+          .content {
+            opacity: 1 !important;
+          }
+        }
+
+        @media (orientation: landscape) {
+          .content {
+            opacity: 0;
+          }
+        }
+
+      
       `}
     </style>
   )
