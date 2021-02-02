@@ -6,7 +6,7 @@ import HeadMeta from "../components/HeadMeta"
 
 const images = imageData.slice()
 // remove the first one
-images.pop()
+images.shift()
 
 function HomePage() {
   useEffect(() => {

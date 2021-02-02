@@ -31,7 +31,7 @@ const siteInfo = {
         Experiencia en proyectos de promoción y particulares.
       </p>
       <p>
-        <a href="/">Vuelve a la página principal.</a>
+        <a href="/">Vuelve a la página principal</a>
       </p>
     </React.Fragment>
   ),
