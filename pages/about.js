@@ -3,7 +3,7 @@ import imageData from "../data/manifest"
 import siteInfo from "../data/meta"
 import HeadMeta from "../components/HeadMeta"
 
-const images = [imageData.slice().reverse()[0]]
+const images = [imageData.slice()[0]]
 
 function AboutPage() {
   return (

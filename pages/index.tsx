@@ -5,8 +5,8 @@ import siteInfo from "../data/meta"
 import HeadMeta from "../components/HeadMeta"
 
 const images = imageData.slice()
+// remove the first one
 images.pop()
-images.reverse()
 
 function HomePage() {
   useEffect(() => {
